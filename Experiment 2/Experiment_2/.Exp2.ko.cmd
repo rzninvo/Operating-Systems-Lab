@@ -1,0 +1,1 @@
+cmd_/home/rohamzn/Experiment_2/Exp2.ko := ld -r -m elf_x86_64 -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/rohamzn/Experiment_2/Exp2.ko /home/rohamzn/Experiment_2/Exp2.o /home/rohamzn/Experiment_2/Exp2.mod.o ;  true
